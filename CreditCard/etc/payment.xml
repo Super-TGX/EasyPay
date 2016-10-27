@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Magento2 支付程序 演示插件
+* @author      TGX
+*/
+-->
+<payment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Payment:etc/payment.xsd">
+    <methods>
+        <method name="easypay_creditcard">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+    </methods>
+</payment>

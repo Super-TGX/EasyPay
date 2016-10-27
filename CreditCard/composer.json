@@ -1,0 +1,17 @@
+{
+    "name": "easypay/creditcard",
+    "description": "信用卡支付开发演示插件 for Magento 2",
+    "type": "magento2-module",
+    "version": "dev-master",
+    "license": [
+        "OSL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "EasyPay/CreditCard"
+            ]
+        ]
+    }
+}
